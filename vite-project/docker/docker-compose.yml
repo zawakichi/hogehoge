@@ -6,3 +6,5 @@ services:
     image: original_mysql_world # イメージの名前
     environment:
       - MYSQL_ROOT_PASSWORD=hogehoge  #コンテナ内のMySQLを起動する際のパスワードを設定
+    ports: # ろーかるからのアクセスあなあけ
+      - "3306:3306"
